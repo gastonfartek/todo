@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6ceff;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.list {
+    
+    display: flex;
+}
+
+.list img {
+    position: relative;
+    height: 15px;
+    top: 17px;
+    left: 10px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
